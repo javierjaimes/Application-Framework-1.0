@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	background:#F0F0F0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+#pagina{
+	padding:0 10px 10px 10px;	
+}
+#inicio{
+	
+}
+#titulo{
+	float:right;
+}
+#titulo a{
+	text-decoration:none;
+	color:#494949;
+}
+#contenido{
+	padding:5px 0;	
+}
+#menu ul{
+	margin:0;
+	padding:12px 0;
+}
+#menu ul li{
+	display:inline;
+	list-style:none;
+}
+#menu ul li a{
+	padding:11px 10px 12px 10px;
+	color:#FFF;
+	background:#494949;
+	text-decoration:none;
+	border:1px solid #494949;
+}
+#menu ul li a:hover{
+	color:#494949;
+	background:#FFF;
+	border-bottom:1px solid #FFF;	
+}
+#menu ul li a.activo{
+	color:#494949;
+	background:#FFF;
+	border-bottom:1px solid #FFF;
+}
+#documento{
+	padding:5px;
+	border:1px solid #494949;
+	background:#FFF;
+}
+#login{
+	width:100%;
+}
+#formlogin{
+	margin:0 auto;
+	width:250px;
+	padding:10px;
+	border:1px solid #144D6B;
+}
+#aplicacion{
+	text-align:right;
+}
+#aplicacion p{
+	float:right;
+	padding:5px 0;
+	color:#317295;	
+}
+#aplicacion p a{
+	color:#317295;
+	text-decoration:none;
+}
+#navdocumento{
+	padding:5px 0;
+	margin:0;
+	border:1px dotted #909090;	
+	border-right:none;
+	border-left:none;
+}
+#navdocumento ul{
+	margin:0;
+	padding:5px 0;
+}
+#navdocumento ul li{
+	list-style:none;
+	display:inline;
+}
+#navdocumento ul li a{
+	padding:5px;
+	background:#CCC;
+	text-decoration:none;
+	color:#494949;
+}
+#navdocumento ul li a:hover{
+	color:#FFF;
+	background:	#494949;
+}
+#clienteperfil{
+	float:left;
+	width:450px;	
+}
+#clientecategorias{
+	margin-left:460px;
+	height:300px;
+	overflow:auto;
+	
+}
+#clientemetadata{
+		
+}
+
+#calendar {
+	text-align: center;
+}
+
+#calendar caption {
+	font: bold 24px Georgia;
+}
+
+#calendar caption a {
+	text-decoration: none;
+	color: #512C5E;
+}
+
+#calendar th,#calendar td {
+	width: 135px;
+}
+
+#calendar td {
+	height: 135px;
+}
+
+#calendar small {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#calendar td.celda {
+	border: 1px solid #333;
+	vertical-align: top;
+	text-align: right;
+}
+
+#calendar td.espacio,#calendarsmall td.espacio {
+	background: #333;
+}
+
+#calendar td.blanco {
+	border: 1px solid #CCC;
+}
+
+
+#error{
+	border:1px solid #DF2F52;
+	background:#F8CDD3;
+	color:#DF2F52;
+	padding:5px;
+	margin:0 0 5px 0;
+}
+#final{
+	font-size:11px;
+	color:#999999;
+}
+#final p{
+	margin:1px 0;	
+}
+#final a{
+	color:#999999;
+	text-decoration:none;	
+}
+
+/***************************** HTML TAGS */
+h1{
+	font-size:36px;
+	margin:0;
+}
+h2{
+	font-size:24px;
+	margin:5px 0;
+	color:#999;
+}
+h3{
+	font-size:18px;
+	margin:0;
+}
+h4{
+	margin:0;
+	font-size:16px;
+}
+p{
+	margin:5px 0;	
+}
+
+/***************************** CLASES */
+.hr{
+	margin:5px 0;
+	background:#CCC;
+	height:1px;
+}
+.hr hr{
+	display:none;	
+}
+.documento{
+	float: left;
+	width: 450px;	
+}
+.secciones{
+	margin-left: 470px;	
+}
+.listar{
+	margin: 0 0 5px 0;
+	padding:5px;
+	background:#F0F0F0;	
+}
+.listar .nombre{
+	float: left;
+}
+.listar .nombre h3{
+	float: none;	
+}
+.listar h3{
+	float:left;	
+}
+.listar p{	
+	text-align:right;	
+}
+.listar ul{
+	margin: 0;
+	padding: 10px 0;	
+	text-align: right;
+}
+.listar ul li{
+	list-style: none;
+	display: inline;	
+}
+
+.evento{
+	margin: 0 0 10px 0;	
+}
+.evento h4{
+	font-size: 14px;
+}
+.evento a{
+	color: #333;
+	text-decoration: none;	
+}
+.evento small{
+	color: #666;	
+}
+
+
+.thumbnail{
+	border:2px solid #494949;	
+}
+.thumbnailleft{
+	float:left;
+	margin:0 5px 0 0;
+}
+.swfupload {
+	vertical-align: top;
+}
+
+/***************************** FORMS */
+form{
+	margin:0;	
+}
+form label{
+	display:block;	
+	margin:10px 0 2px 0;
+	color:#494949;
+	font-weight:bold;
+}
+form input{
+	background:#F0F0F0;
+	color:#144D6B;
+	padding:5px;
+	border:none;
+}
+#botonenviar{
+	cursor:pointer;	
+}
+#botonenviar:hover{
+	background:#144D6B;
+	color:#D3E4EB;
+}
